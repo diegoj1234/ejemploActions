@@ -1,0 +1,8 @@
+name : hola a todos desde actions
+on : [push]
+jobs :
+ saludar:
+  runs-on : ubuntu-lates
+  steps:
+  -name: muestra mensaje hola mundo
+  run : echo "hola mundo, desde el grupo primero 3"
