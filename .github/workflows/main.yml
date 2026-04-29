@@ -1,0 +1,8 @@
+name: nombre del proyecto
+jobs:
+ programar:
+ runs-on:ubuntu-latest
+ run:echo "hola"
+ 
+ 
+   
